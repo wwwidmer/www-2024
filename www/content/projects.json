@@ -1,0 +1,52 @@
+{
+  "data": {
+    "this-site": {
+      "slug": "this-site",
+      "name": "Personal Website",
+      "tags": ["typescript", "nuxtjs", "vue", "vercel"],
+      "shortDescription": "A fast implementation of a personal website with Nuxt.js.",
+      "longDescription": "I built this website to showcase my projects and blog posts. It is built with Nuxt.js and TypeScript and deployed on Vercel. This was mostly a quick learning project to get familiar with Nuxt and Vercel - and how is it strong. My estimate for building this was a day of planning and about six total hours of effecient coding. Some clever tools provided by Nuxt allow dynamics markdown loading, obvious routing mechanics, and a convention for serving assets without any additional custom configuration.",
+      "image": ""
+    },
+    "microsoft-copilot": {
+      "slug": "microsoft-copilot",
+      "name": "Microsoft for Startups Copilot",
+      "tags": ["ai", "python", "azure"],
+      "shortDescription": "Copilot is a tool that provides users advice and automated Q&A.",
+      "longDescription": "",
+      "image": ""
+    },
+    "microsoft-expert-network": {
+      "slug": "microsoft-expert-network",
+      "name": "Microsoft Expert Network",
+      "tags": ["react", "typescript", "python"],
+      "shortDescription": "Networking and advice with real experts vetted by Microsoft.",
+      "longDescription": "https://foundershubsupportcenter.powerappsportals.com/category/?id=CAT-01030",
+      "image": ""
+    },
+    "unsupervised-elastic-to-psql": {
+      "slug": "unsupervised-elastic-to-psql",
+      "name": "An elasticsearch to Postgresql migration",
+      "tags": ["react", "typescript", "python"],
+      "shortDescription": "Pre-mature optimization is the root of all evil.",
+      "longDescription": "",
+      "image": ""
+    },
+    "the-trek": {
+      "slug": "the-trek",
+      "name": "The Trek",
+      "tags": ["react", "typescript", "python"],
+      "shortDescription": "A platform for hiking enthusiasts serving up thousands of unique views a month.",
+      "longDescription": "",
+      "image": ""
+    },
+    "fund-this-founder-journey": {
+      "slug": "fund-this-founder-journey",
+      "name": "Fund This My Founder Journey",
+      "tags": ["react", "typescript", "python"],
+      "shortDescription": "That time I started a company and raised money for it.",
+      "longDescription": "",
+      "image": ""
+    }
+  }
+}
