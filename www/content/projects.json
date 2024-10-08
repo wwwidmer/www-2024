@@ -5,23 +5,24 @@
       "name": "Personal Website",
       "tags": ["typescript", "nuxtjs", "vue", "vercel"],
       "shortDescription": "A fast implementation of a personal website with Nuxt.js.",
-      "longDescription": "I built this website to showcase my projects and blog posts. It is built with Nuxt.js and TypeScript and deployed on Vercel. This was mostly a quick learning project to get familiar with Nuxt and Vercel - and how is it strong. My estimate for building this was a day of planning and about six total hours of effecient coding. Some clever tools provided by Nuxt allow dynamics markdown loading, obvious routing mechanics, and a convention for serving assets without any additional custom configuration.",
+      "longDescription": "I built this website to showcase my projects and blog posts. It is built with Nuxt.js and TypeScript and deployed on Vercel. This was mostly a quick learning project to get familiar with Nuxt and Vercel - and how is it strong. My estimate for building this was a day of planning and about six total hours of effecient coding. Some clever tools provided by Nuxt allow dynamics markdown loading, obvious routing mechanics, and a convention for serving assets without any additional custom configuration. Vercel is making some great tools! I definitely recommend for a quick start to abstract away deployment and other typescript nonsense.",
       "image": ""
     },
     "microsoft-copilot": {
       "slug": "microsoft-copilot",
-      "name": "Microsoft for Startups Copilot",
+      "name": "Microsoft for Startups AI Assistant",
       "tags": ["ai", "python", "azure"],
       "shortDescription": "Copilot is a tool that provides users advice and automated Q&A.",
-      "longDescription": "",
-      "image": ""
+      "longDescription": "AI was hot in 2023. It still is. While I was an employee at Microsoft we were working on a tool that would provide advice to startups. Along with being a knowledge base of the Microsfot for Startups program the chatbot would provide support via an LLM powered by a RAG. The RAG used some existing Azure tools to get some useful Microsoft context. This was a project led by me - we were working in a pretty green space so we helped shape the fundamentals around LLM usage at Microsoft. I was able to direct features and scope for an initial private launch within four months of conception. With limited resources at my disposal the project was successful and was providing value as soon as it was enabled for users.",
+      "media": "https://www.youtube.com/watch?v=Rxa_mV2FNyk",
+      "mediaType": "video"
     },
     "microsoft-expert-network": {
       "slug": "microsoft-expert-network",
       "name": "Microsoft Expert Network",
       "tags": ["react", "typescript", "python"],
       "shortDescription": "Networking and advice with real experts vetted by Microsoft.",
-      "longDescription": "https://foundershubsupportcenter.powerappsportals.com/category/?id=CAT-01030",
+      "longDescription": "https://www.youtube.com/watch?v=J_3kZvwRTuc",
       "image": ""
     },
     "unsupervised-elastic-to-psql": {
@@ -29,7 +30,7 @@
       "name": "An elasticsearch to Postgresql migration",
       "tags": ["react", "typescript", "python"],
       "shortDescription": "Pre-mature optimization is the root of all evil.",
-      "longDescription": "",
+      "longDescription": "There are a lot of uses for Elasticsearch. You can query millions of records in a moment; Useful for logs or analytics. When I began work at a small AI startup in Boulder, CO my first tasks were auditing the legacy software to ensure usability, scability, and resililence(sp?). Among the things I hoped to optimize I noticed the data persisted in ES were primarly relational. Queries were wild and required a lot of custom code and trival knowledge to understand. My fist task was breaking this out into sensible database schema using Postgres and connecting via Python. I was able to weave through all uses of the code - a great project to understand all business logic. We constructed a script to slurp all ES data into postgres and include that in the following version of the software (it was an on-prem/distrubted sass product). Performance wise we didn't gain much but we lost major complexity in every ES query that existed and no longer need to keep an ES resource around in our deployments; Opting for a cheaper and more usable postgres container.",
       "image": ""
     },
     "the-trek": {
@@ -37,7 +38,7 @@
       "name": "The Trek",
       "tags": ["react", "typescript", "python"],
       "shortDescription": "A platform for hiking enthusiasts serving up thousands of unique views a month.",
-      "longDescription": "",
+      "longDescription": "I still work on the Trek! It is an ongoing project with founder Zach Davis. Generally I am fighting attacks, handling scale, SEO, and minor features every week. It is generally part-time but a fun passion project to be involved in the hiking community. https://thetrek.co",
       "image": ""
     },
     "fund-this-founder-journey": {

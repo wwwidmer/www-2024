@@ -5,6 +5,7 @@
       <div class="description">{{ project.longDescription }}</div>
 
       <div class="tags">
+        <ProjectMediaContainer :project="project" />
         <ul>
           <li v-for="tag in project.tags" :key="tag">
             {{ tag }}

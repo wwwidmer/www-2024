@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="about-container">
+    <div> <p> Contained within are a subset of projects I have worked on at a variety of shops. Unfortunately much is proprietary so I can only give a high-level but I provide links when I can. Its impossible to share everything about every job I've worked in the last decade; This showcases my favorite projects with a slight recency bias.</p> </div>
     <div class="card-container">
       <div v-for="project in projects" :key="project.slug" class="card">
         <a :href="`/projects/${project.slug}`"> {{ project.name }}</a>
